@@ -6,20 +6,20 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "21157281"))
-API_HASH = getenv("API_HASH", "cd16b814151c1439adefb3c3a09b6096")
+API_ID = int(getenv("API_ID", "28976608"))
+API_HASH = getenv("API_HASH", "1e200bdfdcc3cc816f9f6a62e6e6f4a0")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7865291325:AAG7XG7cqBzSziaVEyr4jW2K6sKEety7yKA")
+BOT_TOKEN = getenv("BOT_TOKEN", "8389239648:AAHqaQJxJE3y7fzm3cyA8t2_p8c1PAmCBho")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lakshay3434:Tony123@cluster0.s63lu.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002116643591))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1003063952141))
 
-OWNER_ID = int(getenv("OWNER_ID", 7821072467)) 
+OWNER_ID = int(getenv("OWNER_ID", 5016636419)) 
 
-OWNER = int(getenv("OWNER", 7821072467))
+OWNER = int(getenv("OWNER", 5016636419))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -31,8 +31,8 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = "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"
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hxh_bot_support")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/zenitsu_bot_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Silent_world_chatting")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Silent_world_chatting")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = '7f92897a59464ddbbf00f06cd6bda7fc'
@@ -89,3 +89,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
