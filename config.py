@@ -31,8 +31,8 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = "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"
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hxh_bot_support")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/zenitsu_bot_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Silent_world_chatting")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Silent_world_chatting")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = '7f92897a59464ddbbf00f06cd6bda7fc'
@@ -89,5 +89,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
