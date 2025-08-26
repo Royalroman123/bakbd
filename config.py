@@ -6,10 +6,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "21157281"))
-API_HASH = getenv("API_HASH", "cd16b814151c1439adefb3c3a09b6096")
+API_ID = int(getenv("API_ID", "28976608"))
+API_HASH = getenv("API_HASH", "1e200bdfdcc3cc816f9f6a62e6e6f4a0")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7865291325:AAG7XG7cqBzSziaVEyr4jW2K6sKEety7yKA")
+BOT_TOKEN = getenv("BOT_TOKEN", "8389239648:AAHqaQJxJE3y7fzm3cyA8t2_p8c1PAmCBho")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lakshay3434:Tony123@cluster0.s63lu.mongodb.net/?retryWrites=true&w=majority")
 
@@ -89,3 +89,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
