@@ -63,12 +63,12 @@ PLAYLIST_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-75431419
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/iyr906.jpg")
 TELEGRAM_AUDIO_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
 TELEGRAM_VIDEO_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
-STREAM_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-SOUNCLOUD_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-YOUTUBE_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
@@ -89,6 +89,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
