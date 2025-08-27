@@ -59,10 +59,10 @@ confirmer = {}
 
 START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/iyr906.jpg")
 PING_IMG_URL = "https://files.catbox.moe/iyr906.jpg"
-PLAYLIST_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/iyr906.jpg")
-TELEGRAM_AUDIO_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-TELEGRAM_VIDEO_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/bRDZXVJ4/photo-2025-08-27-06-03-03-7543141926845808648.jpg"
 STREAM_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
 SOUNCLOUD_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
 YOUTUBE_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
@@ -89,6 +89,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
