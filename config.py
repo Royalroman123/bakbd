@@ -15,7 +15,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Krishna:pss968048@cluster0.
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002116643591))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1003063952141))
 
 OWNER_ID = int(getenv("OWNER_ID", 7821072467)) 
 
@@ -89,6 +89,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
