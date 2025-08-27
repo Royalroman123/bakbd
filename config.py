@@ -9,7 +9,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "28976608"))
 API_HASH = getenv("API_HASH", "1e200bdfdcc3cc816f9f6a62e6e6f4a0")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "8389239648:AAHqaQJxJE3y7fzm3cyA8t2_p8c1PAmCBho")
+BOT_TOKEN = getenv("BOT_TOKEN", "7974545180:AAHyxYP0C1hGnKVm-2vrDZCiOMrKzzpfU_Y")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 
@@ -89,6 +89,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
